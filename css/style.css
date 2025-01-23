@@ -1,0 +1,475 @@
+/* Algemeen */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 200px;
+}
+
+h1,h2,h3{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #fafafa;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+section {
+    color: #E9602D;
+    padding: 1em 2em 0em 1.5em;   
+    animation-name: FadeIn;
+    animation-duration: 2s; 
+}
+
+div{ 
+    animation-name: FadeIn;
+    animation-duration: 2s; 
+}
+
+
+
+/* header */
+header {
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 1rem;
+    background-image: url('images/driebloemen.png');
+    background-position: center;
+    background-size: cover;
+    padding: 1em 3em;
+    position: fixed; 
+    top: 0;
+    z-index: 1000;
+    height: 170px;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.navigatie {
+    width: 50%;
+}
+
+header a {
+    color: #E9602D;
+    text-decoration: none;
+}
+
+header img {
+    width: 55%;
+    padding: 0.5em 0;
+}
+
+.actief {
+    text-decoration: underline;
+}
+
+
+
+/* home en quotes*/
+.banner {
+    background-color: #E881AF;
+    color: #fafafa;
+    padding: 2em 2em 7em 1.5em;
+    background-image: url('images/dumpling2.png');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 80%;
+    padding: 2.5em 0 0 3em;
+}
+
+
+.quote {
+    background-color: #FFBC41;
+    padding-top: 0em;
+    padding: 1em 2em 1em 1.5em;
+}
+
+.quote h2 {
+    color: #E9602D;
+    font-size: 25px;
+    text-align: center;
+}
+
+.quote2 {
+    background-color: #3A9351;
+    padding-top: 0em;
+    padding: 1em 2em 1em 1.5em;
+}
+
+.quote2 h2 {
+    color: #E881AF;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+.favorieten {
+    color: #83A6D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.875rem;
+    background-image: url('images/tweebloemen.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.favorieten h2 {
+    color: #3A9351;
+    padding-left: 0.5em;
+    font-weight: 400;
+}
+
+.favorieten h3 {
+    color: #83A6D8;
+    padding-left: 0.5em;
+}
+
+.favorieten p{
+    padding-left: 1em;
+    font-weight: 400;
+}
+
+
+.hapje img, .drankje img {
+    width: 45%;
+    border-radius: 15px;
+    margin: 0em 0.3em 1.5em 0em;
+}
+
+
+.drankje {
+    padding-top: 0em;
+    background-image: url('images/oranjebloem.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.hapje {
+    padding-top: 0em;
+    background-image: url('images/gelebloem3.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.groenachtergrond {
+    background-color: #3A9351;
+    color: #fafafa;
+    padding: 1em 2em 2em 1.5em;
+}
+
+.groenachtergrond h2 {
+    color: #fafafa;
+    font-size: 1.8rem;
+
+}
+
+.groenachtergrond img {
+    width: 70%;
+    padding-left: 3em;
+    padding-top: 2em;
+}
+
+
+.scorekaart {
+    background-color: #83A6D8;
+    color: #fafafa;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    padding: 0em 2em 0em 1.5em;
+}
+
+.scorekaart h2 {
+    color: #fafafa;
+}
+
+.scorekaart h3 {
+    color: #fafafa;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 0.3em;
+}
+
+.scorekaart img{
+    width: 8rem;
+    padding-left: 1.2em;
+}
+
+
+
+.overdeveganees {
+    background-color: #E9602D;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2em 0 0.5em;
+}
+
+.overdeveganees img {
+    width: 41%;
+    border-radius: 15px;
+}
+
+
+
+
+
+/* over de veganees*/
+
+.oranje {
+    background-color: #E9602D;
+    padding-bottom: 10em;
+    color: #fafafa;
+    background-image: url('images/loempia.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.eigenschappen {
+    color: #E881AF;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 1em 2em 1em 1.5em;
+
+}
+
+.eigenschappen h2 {
+    color: #E881AF;
+    font-size: 25px;
+}
+
+.eigenschappen h3 {
+    color: #E881AF;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 0.3em;
+}
+
+.eigenschappen img{
+    width: 9rem;
+    padding-left: 1.2em;
+}
+
+
+.veganistisch {
+    background-image: url('images/gelebloem.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.interieur {
+    background-image: url('images/blauwebloem.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.contact {
+    background-color: #FFBC41;
+    color: #E9602D;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2em 0 0;
+}
+
+.contact img {
+    width: 50%;
+}
+
+.contact h2 {
+    font-size: 25px;
+    padding-left: 0.5em;
+    padding-top: 2.1em;
+}
+
+.contact p {
+    padding: 0.8em 5em 3em 1.7em;
+}
+
+.contact a {
+    background: #E9602D;
+    color: #FFBC41;
+    font-size: 0.875rem;
+    padding: 0.8em 2em;
+    font-weight: 200;
+    border-radius: 30px;
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+
+
+
+/* impact van duurzaamheid */
+.blauwachtergrond {
+    background-color: #83A6D8;
+    color: #fafafa;
+    padding: 2em 2em 2em 1.5em;
+}
+
+
+.duurzaamheid {
+    color: #E9602D;
+    display:flex;
+    padding: 1em 2em 2em 1.5em;
+    background-image: url('images/groenebloem.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.duurzaamheid h2 {
+    color: #E9602D;
+    font-size: 1.6rem;
+    padding-top: 1em;
+    margin-bottom: 0em;
+}
+
+.duurzaamheid h3 {
+    color: #E9602D;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 0.3em;
+}
+
+.duurzaamheid img{
+    width: 9rem;
+    padding-left: 1.2em;
+}
+
+
+.milieu {
+    background-image: url('images/rozebloem2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.samenleving {
+    background-image: url('images/gelebloem2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    background-image: url('images/gelebloem.png');
+    background-position: left;
+    background-size: cover;
+    text-align: center;
+    padding: 2em 0;
+}
+
+footer ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding-right: 2em;
+}
+
+footer a {
+    background: #E881AF;
+    color: #FFBC41;
+    font-size: 0.875rem;
+    padding: 0.8em 2em;
+    font-weight: 200;
+    border-radius: 30px;
+
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: #3A9351;
+}
+
+
+.footer2 a {
+    background: #3A9351;
+    color: #FFBC41;
+    font-size: 14px;
+    padding: 0.8em 2em 0.8em 2em;
+    font-weight: 200;
+    border-radius: 30px;
+}
+
+.footer2 p {
+    font-size: 12px;
+    padding-left: 1em;
+    color: #E9602D;
+}
+
+.footer3 a {
+    background: #83A6D8;
+    color: #FFBC41;
+    font-size: 14px;
+    padding: 0.8em 2em 0.8em 2em;
+    font-weight: 200;
+    border-radius: 30px;
+}
+
+.footer3 p {
+    font-size: 12px;
+    padding-left: 1em;
+    color: #E881AF;
+    padding-bottom: 2em;
+}
+
